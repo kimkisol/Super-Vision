@@ -1,0 +1,38 @@
+.cnnName::first-letter {
+  font-size: 150%;
+}
+
+.cnnLayer {
+  cursor: pointer;
+}
+
+.cnnLayer .fill {
+  width: 10rem;
+  height: 30rem;
+  position: relative;
+}
+
+.rotateY .fill {
+  -webkit-transform: skewy(-30deg);
+  transform: skewy(-30deg);
+}
+
+.rotateY:hover .fill {
+  -webkit-transform: translateY(-50px) skewy(-30deg);
+  transform: translateY(-50px) skewY(-30deg);
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+.brightBox {
+  background: #cef3ff;
+}
+
+.darkBox {
+  background: #5F7B84;
+}
+
+
+
+

@@ -1,0 +1,8 @@
+.webcam-video {
+  width: 320px;
+  height: 240px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border: 1.5px dashed #f2ffff00;
+}

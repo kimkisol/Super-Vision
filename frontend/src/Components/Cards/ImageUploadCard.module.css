@@ -1,0 +1,18 @@
+.upload-card-img {
+  object-fit: cover;
+  height: 50vh;
+  width: 20vw;
+  border-radius: 20px;
+  border: 1.5px dashed #f2ffff;
+}
+
+.upload-card {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 20vw;
+  border-radius: 20px;
+  border: 1.5px dashed #f2ffff;
+}

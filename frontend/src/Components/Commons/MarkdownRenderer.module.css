@@ -1,0 +1,48 @@
+.blockquote_div {
+  border-left: 3px solid #5f7b84;
+  background-color: #39424e36;
+  line-height: 1.8em;
+  margin: 1.1em;
+  padding: 1em 2em;
+  position: relative;
+  transition: 0.2s border ease-in-out;
+  z-index: 0;
+}
+.blockquote_div::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -4px;
+  height: 2em;
+  background-color: #031214;
+  width: 5px;
+  margin-top: -1em;
+}
+.blockquote_div::after {
+  content: "\f071";
+  position: absolute;
+  font-weight: 900;
+  top: 50%;
+  left: -0.5em;
+  color: #5f7b84;
+  font-family: "Font Awesome 5 Free";
+  line-height: 1em;
+  text-align: center;
+  text-indent: -2px;
+  width: 1em;
+  margin-top: -0.5em;
+  transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
+}
+.blockquote_div::active::after {
+  transform: rotateY(360deg);
+}
+
+.a_tag {
+  text-decoration: none;
+  color: #cef3ff;
+  margin: 0.5rem
+}
+
+.a_tag:hover {
+  color: #b9d9e4
+}

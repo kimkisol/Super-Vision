@@ -1,0 +1,17 @@
+.card-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem
+}
+
+@keyframes highlight {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+.active {
+  box-shadow: inset 0 -2px 0 #5f7b84;
+  transition: all .5s ease-in-out;
+}

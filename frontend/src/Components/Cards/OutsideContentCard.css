@@ -1,0 +1,19 @@
+.card-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 40vh;
+  width: 15vw;
+  border-radius: 20px;
+  border: 1.5px dashed #f2ffff;
+}
+
+.outside-card {
+  width: 18vw;
+}
