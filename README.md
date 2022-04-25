@@ -228,7 +228,7 @@ frontend
 ![메인페이지](images/메인페이지.gif)
 
 ### 이미지 필터
-- VMAF : Netflix에서 개발한 비디오 품질 평가 알고리즘
+VMAF : Netflix에서 개발한 비디오 품질 평가 알고리즘
 ![이미지필터](images/이미지필터.gif)
 
 ### 이미지 다운로드
